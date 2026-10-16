@@ -1,0 +1,17 @@
+node_modules
+dist
+.vercel
+.env
+.env.local
+.DS_Store
+~$*.xlsx
+
+# Planilha original (usada só para gerar a carga inicial) e dados de demonstração locais
+dados/
+public/demo.json
+
+# Dados de cada empresa (planilhas e SQLs de carga) ficam só no PC: o repositório é público
+banco/empresas/*/
+*.xlsx
+*.csv
+.claude/
